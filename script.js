@@ -13,7 +13,7 @@ const relogio = setInterval(function time() {
     }
     
     if (min < 10){
-        min = '0' + 'min';
+        min = '0' + min;
     }
     
     if (hr < 10){
