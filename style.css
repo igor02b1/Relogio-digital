@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+span {
+    font-size: 30px;
+    color: white;
+    padding: 3px;
+}
+
+.container{
+    display: flex;
+    border: 1px solid white;
+}
+
+.cont-segundos, .separador-2, .cont-minutos,
+.separador-1,.cont-horas{
+    padding-left: 5px;
+}
+
+
